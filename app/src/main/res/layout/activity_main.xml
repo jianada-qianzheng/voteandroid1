@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weizhi.voteandroid.MainActivity">
+
+    <Button
+        android:id="@+id/candidate4"
+        android:layout_width="168dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:background="@drawable/button_selector3"
+        android:text="郭台銘   0%"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/candidate3" />
+
+    <!--<com.google.android.gms.ads.AdView-->
+    <!--android:id="@+id/adView2"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_marginBottom="3dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.0"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:adSize="LARGE_BANNER"-->
+
+    <!--/>-->
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="ca-app-pub-6463506718592054/3823154812"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
+    <Button
+        android:id="@+id/candidate1"
+
+        android:layout_width="168dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:background="@drawable/button_selector"
+        android:text="蔡英文   0%"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/candidate2"
+        android:layout_width="168dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:background="@drawable/button_selector2"
+        android:text="韓國瑜   0%"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/candidate1" />
+
+    <Button
+        android:id="@+id/candidate5"
+        android:layout_width="168dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:background="@drawable/button_selector5"
+        android:text="沒意見   0%"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/candidate4" />
+
+    <Button
+        android:id="@+id/candidate3"
+        android:layout_width="168dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:background="@drawable/button_selector3"
+        android:text="柯文哲   0%"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/candidate2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
