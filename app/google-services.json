@@ -1,0 +1,40 @@
+ {
+  "project_info": {
+    "project_number": "797426703083",
+    "firebase_url": "https://voteandroid.firebaseio.com",
+    "project_id": "voteandroid",
+    "storage_bucket": "voteandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797426703083:android:cec691f1a87b2cd9",
+        "android_client_info": {
+          "package_name": "com.weizhi.voteandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797426703083-l0bntde4ovnt3ocus2mmh706pr2qaq4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPYxYqkji1k5ZLp-W9FAp--J3UUE5hzuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797426703083-l0bntde4ovnt3ocus2mmh706pr2qaq4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

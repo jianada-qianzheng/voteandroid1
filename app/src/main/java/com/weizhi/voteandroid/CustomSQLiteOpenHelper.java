@@ -31,6 +31,8 @@ public class CustomSQLiteOpenHelper extends SQLiteOpenHelper {
 
             + "name text)";//数据库里的表
 
+
+
     public CustomSQLiteOpenHelper(Context context) {
         this(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
