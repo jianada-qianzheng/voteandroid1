@@ -1,2 +1,3 @@
 # voteandroid1
-# 總統大選即時民調
+# Presidential election continual polls
+
