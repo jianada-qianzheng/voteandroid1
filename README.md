@@ -4,4 +4,4 @@
 
 # Email: wagehk@gmail.com
 
-# Video: https://github.com/jianada-qianzheng/voteandroid1
+# Video:  https://www.youtube.com/watch?v=DaG-sBhcR1U
