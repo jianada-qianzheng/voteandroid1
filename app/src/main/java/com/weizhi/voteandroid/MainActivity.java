@@ -425,8 +425,8 @@ public class MainActivity extends AppCompatActivity {
          radioButton5_2=findViewById(R.id.radioButton5_2);
          radioButton5_3=findViewById(R.id.radioButton5_3);
          radioButton5_4=findViewById(R.id.radioButton5_4);
-         radioButton5_5=findViewById(R.id.radioButton5_5);
-         radioButton5_6=findViewById(R.id.radioButton5_6);
+       //  radioButton5_5=findViewById(R.id.radioButton5_5);
+         //radioButton5_6=findViewById(R.id.radioButton5_6);
 
         radioButton5_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -456,19 +456,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        radioButton5_5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                vote=5;
-            }
-        });
+//        radioButton5_5.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                vote=5;
+//            }
+//        });
 
-        radioButton5_6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                vote=6;
-            }
-        });
+//        radioButton5_6.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                vote=6;
+//            }
+//        });
 
 
         //screen6
@@ -493,7 +493,7 @@ public class MainActivity extends AppCompatActivity {
         lastStep6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mInterstitialAd.show();
+                //mInterstitialAd.show();
 
                 screen6.setVisibility(View.GONE);
                 screen1.setVisibility(View.VISIBLE);
@@ -508,24 +508,20 @@ public class MainActivity extends AppCompatActivity {
         candidate6_2=findViewById(R.id.candidate6_2);
         candidate6_3=findViewById(R.id.candidate6_3);
         candidate6_4=findViewById(R.id.candidate6_4);
-        candidate6_5=findViewById(R.id.candidate6_5);
-        candidate6_6=findViewById(R.id.candidate6_6);
+
 
         percentage6_1=findViewById(R.id.percentage6_1);
         percentage6_2=findViewById(R.id.percentage6_2);
         percentage6_3=findViewById(R.id.percentage6_3);
         percentage6_4=findViewById(R.id.percentage6_4);
-        percentage6_5=findViewById(R.id.percentage6_5);
-        percentage6_6=findViewById(R.id.percentage6_6);
+
 
         progressBar6_1=findViewById(R.id.progressBar6_1);
         progressBar6_2=findViewById(R.id.progressBar6_2);
         progressBar6_3=findViewById(R.id.progressBar6_3);
         progressBar6_4=findViewById(R.id.progressBar6_4);
-        progressBar6_5=findViewById(R.id.progressBar6_5);
-        progressBar6_6=findViewById(R.id.progressBar6_6);
 
-        total=findViewById(R.id.total);
+        //total=findViewById(R.id.total);
 
 
 
